@@ -7,6 +7,7 @@
     --light-color: #fff;
     --alt-hover-color: #188ce8;
     --border-color: #eeeeee;
+    --background-gradient: rgba(47, 48, 58, 0.4);
 }
 
 h1,
@@ -127,6 +128,14 @@ body {
     max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
+    background-image: linear-gradient(
+            to right,
+            var(--background-gradient),
+            var(--background-gradient)
+        ),
+        url('../images/herobackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .hero-container {
     width: 700px;
