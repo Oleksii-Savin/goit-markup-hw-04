@@ -1,2 +1,3 @@
 # goit-markup-hw-03
-HW-3 Block-model
+
+HW-4 Decorative elements
