@@ -90,6 +90,7 @@ body {
     color: var(--primary-color);
     font-weight: 500;
     line-height: 1.17;
+    margin-top: 9px;
 }
 .phone-icon {
     width: 10px;
@@ -220,9 +221,16 @@ body {
     display: inline-block;
     align-items: center;
     justify-content: center;
+    width: 270px;
+    height: 251px;
 }
 .feature-list-item:last-child {
     margin-right: 0;
+}
+.features-background-img {
+    width: 100;
+    height: 120;
+    background-color: #f5f4fa;
 }
 .features-icon {
     display: flex;
@@ -453,12 +461,6 @@ body {
 .address-list:hover,
 .address-list:focus {
     color: var(--hover-color);
-}
-
-.contacts-section-bottom {
-    max-width: 1600px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 footer .logo-studio {
